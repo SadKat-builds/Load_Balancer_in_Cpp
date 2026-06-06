@@ -1,4 +1,4 @@
-# ⚖️ C++ Load Balancer
+#  C++ Load Balancer
 
 A lightweight and efficient Load Balancer built in C++ with support for:
 - Round-robin load distribution
@@ -9,18 +9,18 @@ A lightweight and efficient Load Balancer built in C++ with support for:
 
 ---
 
-## 📋 Features
+##  Features
 
-✅ Load balancing using **Round-Robin algorithm**  
-✅ Health checks for backend servers (with failure/success thresholds)  
-✅ Automatic **JSON config reloading** without restarting the service  
-✅ Thread-safe backend server handling using **mutex**  
-✅ Concurrent client handling using **std::thread**  
-✅ Forwarding data between client and backend bi-directionally  
+ Load balancing using **Round-Robin algorithm**  
+ Health checks for backend servers (with failure/success thresholds)  
+ Automatic **JSON config reloading** without restarting the service  
+ Thread-safe backend server handling using **mutex**  
+ Concurrent client handling using **std::thread**  
+ Forwarding data between client and backend bi-directionally  
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 .
@@ -73,7 +73,7 @@ using json = nlohmann::json;
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone the repo:
 
@@ -90,7 +90,7 @@ cd cpp-load-balancer
 
 ---
 
-## 📦 Future Improvements
+##  Future Improvements
 
 - Logging to file (with log levels)
 - Monitoring dashboard (stats, health)
@@ -103,11 +103,3 @@ cd cpp-load-balancer
 
 MIT License. Free to use and modify.
 
----
-
-## 🙋‍♂️ Author
-
-**Rohit Suthar**  
-_Developer | Backend Enthusiast | MCA Post Graduate 
-📧 [Email](mailto:rohit.suthar.1935@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/rohit-suthar-8a3449214/)
